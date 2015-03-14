@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{2649f9df-f070-4a79-91e9-4342ab945152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kernel">
+      <UniqueIdentifier>{60267078-065b-44bf-8a38-9f0da6e222ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tracing">
+      <UniqueIdentifier>{a1a45698-032f-4413-aca9-dfd901bc0a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tiles">
+      <UniqueIdentifier>{758ae9c7-e285-4a53-8ecf-5c1da3d704b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tiles\Metrics">
+      <UniqueIdentifier>{c95f9e2b-2ee5-4157-b940-30454d7e1632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tiles\Descriptors">
+      <UniqueIdentifier>{880dccf3-ae77-4785-bd3b-ad49d70195a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tiles\Filters">
+      <UniqueIdentifier>{634a71ce-629d-4441-a5ae-46b472c27dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Experiments">
+      <UniqueIdentifier>{fa1e4b53-4b49-4f92-9fe5-906ffacb08d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Window.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Framebuffer.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Mesh.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Light.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Objects.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Octree.cpp">
+      <Filter>Source Files\Tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Raytracer.cpp">
+      <Filter>Source Files\Tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Photon.hpp">
+      <Filter>Source Files\Tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PhotonMap.cpp">
+      <Filter>Source Files\Tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tile.cpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MetricPhotonDensity.cpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MetricDensityDir.cpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MetricTexture.cpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MetricDescriptor.cpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\timer.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NonLocalFilter.cpp">
+      <Filter>Source Files\Tiles\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AreaLight.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ErrorEstimator.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DensityDescriptor.cpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\EnhancedFilter.cpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\istance_count_base.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ResolutionExperiment.cpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Experiment.cpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FilterDescExperiment.cpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\sigma_experiment.hpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\sigma_experiment.cpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\knn_experiment.cpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\quality_experiment.cpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\SceneNode.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Window.hpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Framebuffer.hpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Definitions.hpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Entity.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Light.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Mesh.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Math.hpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Objects.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Octree.hpp">
+      <Filter>Source Files\Tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Raytracer.hpp">
+      <Filter>Source Files\Tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tile.hpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IMetric.hpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MetricPhotonCount.hpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MetricPhotonDensity.hpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PhotonMap.hpp">
+      <Filter>Source Files\Tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MetricDensityDir.hpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MetricTexture.hpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MetricDescriptor.hpp">
+      <Filter>Source Files\Tiles\Metrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DirHistDescrtiptor.hpp">
+      <Filter>Source Files\Tiles\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\IDescriptor.hpp">
+      <Filter>Source Files\Tiles\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\timer.h">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NonLocalFilter.hpp">
+      <Filter>Source Files\Tiles\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ITilesFilter.hpp">
+      <Filter>Source Files\Tiles\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AleaLight.hpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ErrorEstimator.hpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DensityDescriptor.hpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\EnhancedFilter.hpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\instance_count_base.hpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Experiment.hpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ResolutionExperiment.hpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FilterDescExperiment.hpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\knn_experiment.hpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\quality_experiment.hpp">
+      <Filter>Source Files\Experiments</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
